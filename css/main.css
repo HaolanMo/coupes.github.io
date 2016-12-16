@@ -48,6 +48,7 @@ ul.posts li {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 table, th, td {
@@ -55,7 +56,6 @@ table, th, td {
     background-color: white;
     text-align: center;
     margin: auto;
-    width:100%;
     font-family: "Times New Roman", Times, serif;
     padding:10px;
     color: black;
@@ -65,10 +65,4 @@ th {
     background-color: grey;
     font-family: "Georgia", Times, serif;
     color: white;
-}
-
-.img {
-    height: 100%;
-    width: 100%;
-    display:block;
 }
