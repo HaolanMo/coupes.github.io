@@ -1,3 +1,7 @@
+* {
+    color: white;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -12,11 +16,10 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    color: black;
+    
 }
 a {
     text-decoration: none;
-    color: black;
 }
 a:hover {
     text-decoration: underline;
@@ -24,22 +27,18 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: black;
 }
-p {
+h2 {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: black;
 }
 footer {
     font-size: .8em;
-    color: black;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    color: black;
 }
 
 ul.posts li {
