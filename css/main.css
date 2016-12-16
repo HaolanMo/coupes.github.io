@@ -44,3 +44,29 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+    color: white;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width:60%;
+    font-family: "Times New Roman", Times, serif;
+    padding:10px;
+}
+
+th {
+    background-color: grey;
+    font-family: "Georgia", Times, serif;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
